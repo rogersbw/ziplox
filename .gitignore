@@ -169,3 +169,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Data folder (private data)
+analysis/data/raw/
+analysis/data/processed/
+
+# Model output - stan draws (too large)
+analysis/postprocessing/model_output/
+
+# Model output - stan draws (too large)
+analysis/fit_results/loo/*.rds
+analysis/fit_results/parameter_draws/*.rds
+
+analysis/slurm_output/
